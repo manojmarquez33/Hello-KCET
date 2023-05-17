@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/home"/>
+    <item android:title="CGPA"
+        android:icon="@drawable/ic_user"
+        android:id="@+id/cgpa"/>
+    <item android:title="Result"
+        android:icon="@drawable/ic_dashboard"
+        android:id="@+id/result"/>
+</menu>

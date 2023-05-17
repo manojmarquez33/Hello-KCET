@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFFFF</color> // title bar light
+    <color name="purple_500">#FFFDFD</color> // title bar dark
+    <color name="purple_700">#000000</color> // mobile status bar
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="silver_white">#e9f0f8</color>
+    <color name="pink_bg">#E91E63</color>
+</resources>

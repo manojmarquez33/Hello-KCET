@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Gpa calculator</string>
+
+    <string name="open_nav">Open Navigation</string>
+    <string name="close_nav">Close Navigation</string>
+
+
+    <string-array name="Spinner_items">
+        <item>Your grade</item>
+        <item>O - Outstanding</item>
+        <item>A+ - Excellent</item>
+        <item>A - Very Good</item>
+        <item>B+ - Good</item>
+        <item>B - Average</item>
+        <item>RA - Re-appear</item>
+        <item>SA - Shortage attendence</item>
+        <item>WH - WithHeld</item>
+    </string-array>
+
+    <string-array name="Semester">
+        <item>Select your semester</item>
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+        <item>Semester 7</item>
+        <item>Semester 8</item>
+    </string-array>
+</resources>
