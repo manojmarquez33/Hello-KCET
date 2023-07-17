@@ -352,7 +352,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="MA2201"
+                            android:text="MA2202"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -362,7 +362,8 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Linear Algebra and Boundary Value Problems"
+                            android:text="Transforms and Numerical Solution
+of Equations"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -374,7 +375,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="IT2201"
+                            android:text="BT2201"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -384,7 +385,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Computer Organization and Architecture"
+                            android:text="Biochemistry"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -395,7 +396,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="CS2201"
+                            android:text="BT2202"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -405,7 +406,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Data Structures using Python"
+                            android:text="Cell Biology"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -416,7 +417,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="CS2202"
+                            android:text="BT2203"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -426,7 +427,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Object Oriented Programming using Java"
+                            android:text="Stoichiometry"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -437,7 +438,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="CS2203"
+                            android:text="BT2204"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -447,7 +448,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="System Software and Operating Systems "
+                            android:text="Thermodynamics for Biotechnologist"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -458,7 +459,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="EC2201"
+                            android:text="GE2201"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -468,7 +469,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Digital System Design and Microprocessors"
+                            android:text="Design Thinking"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -479,7 +480,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="CS2204"
+                            android:text="BT2205"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -489,7 +490,7 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Data Structures using Python Laboratory"
+                            android:text="Biochemistry Laboratory"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
@@ -500,7 +501,7 @@
                             android:layout_weight="2"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="EC2202"
+                            android:text="BT2206"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
 
@@ -510,10 +511,33 @@
                             android:layout_weight="4"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
-                            android:text="Digital System Design and Microprocessors Laboratory"
+                            android:text="Cell Biology Laboratory"
                             android:textSize="14sp"
                             android:textColor="@color/black"/>
                     </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            android:text="EM2202"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            android:text="Interpersonal Skills - Listening and
+Speaking"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
                 </TableLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>

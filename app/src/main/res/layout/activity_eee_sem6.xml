@@ -577,6 +577,20 @@ Managemen"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
                     </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            android:text="Others"
+                            android:textColor="@color/white"
+                            android:background="@color/pink_bg"
+                            android:textSize="14sp" />
+
+                    </TableRow>
 
                     <TableRow>
 

@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Gpa calculator</string>
+    <string name="app_name">Hello KCET</string>
 
     <string name="open_nav">Open Navigation</string>
     <string name="close_nav">Close Navigation</string>
 
+    <string name="Facebook_Interstitial_placement">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
 
     <string-array name="Spinner_items">
         <item>Your grade</item>

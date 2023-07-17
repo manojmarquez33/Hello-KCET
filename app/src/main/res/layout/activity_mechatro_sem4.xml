@@ -318,7 +318,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="match_parent"
-                android:layout_height="650dp"
+                android:layout_height="700dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:background="#FFFFFF"
@@ -331,7 +331,7 @@
 
                 <TableLayout
                     android:layout_width="match_parent"
-                    android:layout_height="650dp"
+                    android:layout_height="700dp"
                     android:layout_margin="20dp"
                     android:background="@android:color/white"
                     android:paddingBottom="20dp">
@@ -440,22 +440,20 @@ Engineering"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
-                            android:background="#E91E63"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="MT2251"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="14sp" />
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="4"
-                            android:background="#E91E63"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="Manufacturing Technology"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="14sp" />
                     </TableRow>
 
@@ -582,7 +580,6 @@ Laboratory"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
-                            android:background="#E91E63"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="MT2255"
@@ -593,7 +590,6 @@ Laboratory"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="4"
-                            android:background="#E91E63"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="Solid Mechanics Laboratory"

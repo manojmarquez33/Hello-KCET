@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Regulation 2021 Semester 4"
+        android:text="Regulation 2021 Semester 2"
         android:textColor="#F44336"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -9,9 +9,11 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class SemesterTwo extends AppCompatActivity {
 
-    Spinner spinner1,spinner2,spinner3,spinner4,spinner5,spinner6,spinner7,spinner8,spinner9;
+    Spinner spinner1, spinner2, spinner3, spinner4, spinner5, spinner6, spinner7, spinner8, spinner9;
     Button cal_gpa;
 
     @Override
@@ -22,7 +24,6 @@ public class SemesterTwo extends AppCompatActivity {
         cal_gpa = findViewById(R.id.btn_gpa_sem2);
 
         getSupportActionBar().setTitle("Semester 2");
-        getSupportActionBar().setTitle("GPA Result");
 
 
         spinner1 = findViewById(R.id.sem2_spin1);
@@ -43,21 +44,26 @@ public class SemesterTwo extends AppCompatActivity {
 
         });
     }
-    public void calculateGPA(){
 
-        try {
+    public void calculateGPA() {
 
 
-            String English = spinner1.getSelectedItem().toString();
-            String Maths = spinner2.getSelectedItem().toString();
-            String Physics = spinner3.getSelectedItem().toString();
-            String EG = spinner4.getSelectedItem().toString();
-            String Coding = spinner5.getSelectedItem().toString();
-            String EVS = spinner6.getSelectedItem().toString();
-            String Che_lab = spinner7.getSelectedItem().toString();
-            String EP_lab = spinner8.getSelectedItem().toString();
-            String Code_lab = spinner8.getSelectedItem().toString();
+        String English = spinner1.getSelectedItem().toString();
+        String Maths = spinner2.getSelectedItem().toString();
+        String Physics = spinner3.getSelectedItem().toString();
+        String EG = spinner4.getSelectedItem().toString();
+        String Coding = spinner5.getSelectedItem().toString();
+        String EVS = spinner6.getSelectedItem().toString();
+        String Che_lab = spinner7.getSelectedItem().toString();
+        String EP_lab = spinner8.getSelectedItem().toString();
+        String Code_lab = spinner8.getSelectedItem().toString();
 
+
+        if (English.equals("Your grade") || Maths.equals("Your grade") || Physics.equals("Your grade")
+                || EG.equals("Your grade") || Coding.equals("Your grade") || EVS.equals("Your grade")
+                || Che_lab.equals("Your grade") || EP_lab.equals("Your grade")|| Code_lab.equals("Your grade")) {
+            StyleableToast.makeText(this, "Some fields are empty", R.style.errotToast).show();
+        } else {
 
             int total_credits = 22;
 
@@ -66,8 +72,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub1 = 0;
             if (English.equals("Your grade")) {
                 Toast.makeText(this, "SH2101 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (English.equals("O - Outstanding")) {
+            } else if (English.equals("O - Outstanding")) {
                 sub1 = 3 * 10;
             } else if (English.equals("A+ - Excellent")) {
                 sub1 = 3 * 9;
@@ -91,7 +96,7 @@ public class SemesterTwo extends AppCompatActivity {
 
             if (Maths.equals("Your grade")) {
                 Toast.makeText(this, "MA2101 is empty", Toast.LENGTH_SHORT).show();
-            }else if (Maths.equals("O - Outstanding")) {
+            } else if (Maths.equals("O - Outstanding")) {
                 sub2 = 4 * 10;
             } else if (Maths.equals("A+ - Excellent")) {
                 sub2 = 4 * 9;
@@ -110,13 +115,12 @@ public class SemesterTwo extends AppCompatActivity {
             }
 
 
-
             // Physics-----------------------------------------
 
             int sub3 = 0;
             if (Physics.equals("Your grade")) {
                 Toast.makeText(this, "PH2101 is empty", Toast.LENGTH_SHORT).show();
-            }else if (Physics.equals("O - Outstanding")) {
+            } else if (Physics.equals("O - Outstanding")) {
                 sub3 = 3 * 10;
             } else if (Physics.equals("A+ - Excellent")) {
                 sub3 = 3 * 9;
@@ -138,8 +142,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub4 = 0;
             if (EG.equals("Your grade")) {
                 Toast.makeText(this, "GE2101 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (EG.equals("O - Outstanding")) {
+            } else if (EG.equals("O - Outstanding")) {
                 sub4 = 3 * 10;
             } else if (EG.equals("A+ - Excellent")) {
                 sub4 = 3 * 9;
@@ -161,8 +164,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub5 = 0;
             if (Coding.equals("Your grade")) {
                 Toast.makeText(this, "EM2101 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (Coding.equals("O - Outstanding")) {
+            } else if (Coding.equals("O - Outstanding")) {
                 sub5 = 3 * 10;
             } else if (Coding.equals("A+ - Excellent")) {
                 sub5 = 3 * 9;
@@ -184,7 +186,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub6 = 0;
             if (EVS.equals("Your grade")) {
                 Toast.makeText(this, "CY2101 is empty", Toast.LENGTH_SHORT).show();
-            }else if (EVS.equals("O - Outstanding")) {
+            } else if (EVS.equals("O - Outstanding")) {
                 sub6 = 3 * 10;
             } else if (EVS.equals("A+ - Excellent")) {
                 sub6 = 3 * 9;
@@ -206,8 +208,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub7 = 0;
             if (Che_lab.equals("Your grade")) {
                 Toast.makeText(this, "MA2102 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (Che_lab.equals("O - Outstanding")) {
+            } else if (Che_lab.equals("O - Outstanding")) {
                 sub7 = 1 * 10;
             } else if (Che_lab.equals("A+ - Excellent")) {
                 sub7 = 1 * 9;
@@ -229,8 +230,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub8 = 0;
             if (EP_lab.equals("Your grade")) {
                 Toast.makeText(this, "PH2102 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (EP_lab.equals("O - Outstanding")) {
+            } else if (EP_lab.equals("O - Outstanding")) {
                 sub8 = 1 * 10;
             } else if (EP_lab.equals("A+ - Excellent")) {
                 sub8 = 1 * 9;
@@ -252,8 +252,7 @@ public class SemesterTwo extends AppCompatActivity {
             int sub9 = 0;
             if (Code_lab.equals("Your grade")) {
                 Toast.makeText(this, "EM2102 is empty", Toast.LENGTH_SHORT).show();
-            }else
-            if (Code_lab.equals("O - Outstanding")) {
+            } else if (Code_lab.equals("O - Outstanding")) {
                 sub9 = 1 * 10;
             } else if (Code_lab.equals("A+ - Excellent")) {
                 sub9 = 1 * 9;
@@ -270,21 +269,17 @@ public class SemesterTwo extends AppCompatActivity {
             } else if (Code_lab.equals("WH - Malpractice")) {
                 sub9 = 1 * 0;
             }
-            float total_sem3 = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8+ sub9;
+            float total_sem3 = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9;
             double gpa_sem1 = total_sem3 / total_credits;
 
 
             cal_gpa.setClickable(true);
-            Intent intent = new Intent(SemesterTwo.this, ResultActivity.class);
+            Intent intent = new Intent(SemesterTwo.this, GPA_ResultActivity.class);
             intent.putExtra("gpa", gpa_sem1);
             startActivity(intent);
-
-        }catch (Exception e){
-            Toast.makeText(this, "Some fields are empty", Toast.LENGTH_SHORT).show();
 
 
         }
     }
+
 }
-
-

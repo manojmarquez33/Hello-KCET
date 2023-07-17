@@ -8,11 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 
 import com.manomar.gpacalculator.R;
-import com.manomar.gpacalculator.ResultActivity;
+import com.manomar.gpacalculator.GPA_ResultActivity;
 
 import io.github.muddz.styleabletoast.StyleableToast;
 
@@ -106,7 +105,7 @@ public class IT_Sem8 extends AppCompatActivity {
 
 
             cal_gpa.setClickable(true);
-            Intent intent = new Intent(IT_Sem8.this, ResultActivity.class);
+            Intent intent = new Intent(IT_Sem8.this, GPA_ResultActivity.class);
             intent.putExtra("gpa", gpa_sem8);
             startActivity(intent);
 

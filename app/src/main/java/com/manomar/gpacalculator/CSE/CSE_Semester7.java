@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 
 import com.manomar.gpacalculator.R;
-import com.manomar.gpacalculator.ResultActivity;
+import com.manomar.gpacalculator.GPA_ResultActivity;
 
 import io.github.muddz.styleabletoast.StyleableToast;
 
@@ -286,7 +286,7 @@ public class CSE_Semester7 extends AppCompatActivity {
 
 
             cal_gpa.setClickable(true);
-            Intent intent = new Intent(CSE_Semester7.this, ResultActivity.class);
+            Intent intent = new Intent(CSE_Semester7.this, GPA_ResultActivity.class);
             intent.putExtra("gpa", gpa_sem7);
             startActivity(intent);
 

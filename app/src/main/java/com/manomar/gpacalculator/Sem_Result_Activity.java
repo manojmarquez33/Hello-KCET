@@ -37,7 +37,7 @@ public class Sem_Result_Activity extends AppCompatActivity {
         bottom_navigation = findViewById(R.id.bottom_navigation);
         getSupportActionBar().setTitle("Semester Result");
 
-        bottom_navigation.setSelectedItemId(R.id.result);
+    /*    bottom_navigation.setSelectedItemId(R.id.result);
 
         bottom_navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -58,11 +58,20 @@ public class Sem_Result_Activity extends AppCompatActivity {
                     case R.id.result:
                         return true;
 
+                        case R.id.about:
+                        startActivity(new Intent(getApplicationContext()
+                                ,AboutUs.class));
+                        overridePendingTransition(0,0);
+                        return true;
+
 
                 }
                 return false;
             }
         });
+
+
+     */
 
         webview = findViewById(R.id.website);
         webview.setWebViewClient(new WebViewClient(){

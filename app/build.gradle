@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
 
+
 }
 
 android {
@@ -47,9 +48,12 @@ dependencies {
 
     implementation 'com.google.android.play:core:1.10.3'
 
-    implementation 'androidx.annotation:annotation:1.0.0'
-    implementation 'com.facebook.android:audience-network-sdk:6.3.0'
+    implementation 'androidx.annotation:annotation:1.5.0'
+
+   implementation 'com.facebook.android:audience-network-sdk:5.+'
 
 
+    implementation 'androidx.work:work-runtime:2.7.1'
+    implementation 'com.facebook.android:facebook-android-sdk:12.3.0'
 
 }

@@ -24,6 +24,7 @@ public class BioTechActivity extends AppCompatActivity implements View.OnClickLi
         actionBar.setDisplayHomeAsUpEnabled(true);
 
 
+
         card1 = findViewById(R.id.card_BT_sem3);
         card2 = findViewById(R.id.card_BT_sem4);
         card3 = findViewById(R.id.card_BT_sem5);

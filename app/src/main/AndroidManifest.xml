@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,24 +15,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GpaCalculator"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".PrivacyPolicy"
-            android:exported="false">
+            android:name=".MainActivity"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".StudentsTimeTable"
-            android:exported="false">
+            android:name=".PrivacyPolicy"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Class_Time_Table"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".AboutUs"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -40,7 +48,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -54,7 +62,7 @@
         <activity
             android:name=".CIVIL.CivilActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -62,7 +70,7 @@
         <activity
             android:name=".CIVIL.Civil_sem8"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -70,7 +78,7 @@
         <activity
             android:name=".CIVIL.Civil_sem7"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -78,7 +86,7 @@
         <activity
             android:name=".CIVIL.Civil_sem6"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -86,7 +94,7 @@
         <activity
             android:name=".CIVIL.Civil_sem5"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -94,7 +102,7 @@
         <activity
             android:name=".CIVIL.Civil_sem4"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -102,7 +110,7 @@
         <activity
             android:name=".CIVIL.Civil_sem3"
             android:exported="false"
-            android:parentActivityName=".CIVIL.CivilActivity">
+            android:parentActivityName=".CIVIL.CivilActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -110,7 +118,7 @@
         <activity
             android:name=".AIDS.AD_Sem3"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -118,7 +126,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem8"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -126,7 +134,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem7"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -134,7 +142,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem6"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -142,7 +150,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem5"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -150,7 +158,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem4"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -158,7 +166,7 @@
         <activity
             android:name=".MECHATRONICS.Mechatro_sem3"
             android:exported="false"
-            android:parentActivityName=".MECHATRONICS.MechatronicsActivity">
+            android:parentActivityName=".MECHATRONICS.MechatronicsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -166,7 +174,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem8"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -174,7 +182,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem7"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -182,7 +190,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem6"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -190,7 +198,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem5"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -198,7 +206,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem4"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -206,7 +214,7 @@
         <activity
             android:name=".MECHANIC.Mech_sem3"
             android:exported="false"
-            android:parentActivityName=".MECHANIC.MechanicActivity">
+            android:parentActivityName=".MECHANIC.MechanicActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -214,14 +222,14 @@
         <activity
             android:name=".CGPA_Result"
             android:exported="false"
-            android:parentActivityName=".CGPAActivity">
+            android:parentActivityName=".CGPAActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ResultActivity"
-            android:exported="false">
+            android:name=".GPA_ResultActivity"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -229,7 +237,7 @@
         <activity
             android:name=".IT.IT_Sem5"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -237,7 +245,7 @@
         <activity
             android:name=".IT.IT_Sem4"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -245,7 +253,7 @@
         <activity
             android:name=".IT.IT_Sem3"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -253,7 +261,7 @@
         <activity
             android:name=".CSE.CSE_Semester8"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -261,7 +269,7 @@
         <activity
             android:name=".CSE.CSE_Semester7"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -269,7 +277,7 @@
         <activity
             android:name=".CSE.CSE_Semester6"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -277,7 +285,7 @@
         <activity
             android:name=".CSE.CSE_Semester5"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -285,7 +293,7 @@
         <activity
             android:name=".CSE.CSE_Semester4"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -293,7 +301,7 @@
         <activity
             android:name=".AIDS.AidsActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -301,7 +309,7 @@
         <activity
             android:name=".AIDS.AD_Sem4"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -309,7 +317,7 @@
         <activity
             android:name=".AIDS.AD_Sem5"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -317,7 +325,7 @@
         <activity
             android:name=".AIDS.AD_Sem6"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -325,7 +333,7 @@
         <activity
             android:name=".AIDS.AD_Sem7"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -333,7 +341,7 @@
         <activity
             android:name=".AIDS.AD_Sem8"
             android:exported="false"
-            android:parentActivityName=".AIDS.AidsActivity">
+            android:parentActivityName=".AIDS.AidsActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -341,7 +349,7 @@
         <activity
             android:name=".CGPAActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -349,7 +357,7 @@
         <activity
             android:name=".Sem_Result_Activity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -357,7 +365,7 @@
         <activity
             android:name=".ECE.Ece_sem3"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -365,7 +373,7 @@
         <activity
             android:name=".ECE.Ece_sem4"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -373,7 +381,7 @@
         <activity
             android:name=".ECE.Ece_sem5"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -381,7 +389,7 @@
         <activity
             android:name=".ECE.Ece_sem6"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -389,7 +397,7 @@
         <activity
             android:name=".ECE.Ece_sem7"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -397,7 +405,7 @@
         <activity
             android:name=".ECE.Ece_sem8"
             android:exported="false"
-            android:parentActivityName=".ECE.EceActivity">
+            android:parentActivityName=".ECE.EceActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -405,7 +413,7 @@
         <activity
             android:name=".BioTech.BT_sem3"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -413,7 +421,7 @@
         <activity
             android:name=".BioTech.BT_sem4"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -421,7 +429,7 @@
         <activity
             android:name=".BioTech.BT_sem5"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -429,7 +437,7 @@
         <activity
             android:name=".BioTech.BT_sem6"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -437,7 +445,7 @@
         <activity
             android:name=".BioTech.BT_sem7"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -445,7 +453,7 @@
         <activity
             android:name=".BioTech.BT_sem8"
             android:exported="false"
-            android:parentActivityName=".BioTech.BioTechActivity">
+            android:parentActivityName=".BioTech.BioTechActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -453,7 +461,7 @@
         <activity
             android:name=".MECHATRONICS.MechatronicsActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -461,7 +469,7 @@
         <activity
             android:name=".MECHANIC.MechanicActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -469,7 +477,7 @@
         <activity
             android:name=".IT.ITActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -477,7 +485,7 @@
         <activity
             android:name=".IT.IT_Sem6"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -485,7 +493,7 @@
         <activity
             android:name=".IT.IT_Sem7"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -493,7 +501,7 @@
         <activity
             android:name=".IT.IT_Sem8"
             android:exported="false"
-            android:parentActivityName=".IT.ITActivity">
+            android:parentActivityName=".IT.ITActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -501,7 +509,7 @@
         <activity
             android:name=".EEE.EeeActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -509,7 +517,7 @@
         <activity
             android:name=".EEE.Eee_sem3"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -517,7 +525,7 @@
         <activity
             android:name=".EEE.Eee_sem4"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -525,7 +533,7 @@
         <activity
             android:name=".EEE.Eee_sem5"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -533,7 +541,7 @@
         <activity
             android:name=".EEE.Eee_sem6"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -541,7 +549,7 @@
         <activity
             android:name=".EEE.Eee_sem7"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -549,7 +557,7 @@
         <activity
             android:name=".EEE.Eee_sem8"
             android:exported="false"
-            android:parentActivityName=".EEE.EeeActivity">
+            android:parentActivityName=".EEE.EeeActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -557,14 +565,14 @@
         <activity
             android:name=".ECE.EceActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".BioTech.BioTechActivity"
-            android:exported="false">
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -572,7 +580,7 @@
         <activity
             android:name=".CSE.CseActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -580,7 +588,7 @@
         <activity
             android:name=".CSE.CSE_Semester3"
             android:exported="false"
-            android:parentActivityName=".CSE.CseActivity">
+            android:parentActivityName=".CSE.CseActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -588,7 +596,7 @@
         <activity
             android:name=".SemesterTwo"
             android:exported="false"
-            android:parentActivityName=".FirstYear">
+            android:parentActivityName=".FirstYear" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -596,7 +604,7 @@
         <activity
             android:name=".SemesterOne"
             android:exported="false"
-            android:parentActivityName=".FirstYear">
+            android:parentActivityName=".FirstYear" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -604,14 +612,14 @@
         <activity
             android:name=".FirstYear"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".GPA_Activity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".GPA_Activity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -622,6 +630,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

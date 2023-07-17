@@ -13,4 +13,13 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="errotToast">
+        <item name="stColorBackground">#FD1100</item>
+        <item name="stTextColor">@color/white</item>
+        <item name="stTextBold">true</item>
+        <item name="stStrokeColor">#9FA0A8</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/attention</item>
+        <item name="stGravity">center</item>
+    </style>
 </resources>

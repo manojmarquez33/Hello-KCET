@@ -297,7 +297,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="match_parent"
-                android:layout_height="1100dp"
+                android:layout_height="1300dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:background="#FFFFFF"
@@ -310,7 +310,7 @@
 
                 <TableLayout
                     android:layout_width="match_parent"
-                    android:layout_height="1100dp"
+                    android:layout_height="1300dp"
                     android:layout_margin="20dp"
                     android:background="@android:color/white"
                     android:paddingBottom="20dp">
@@ -704,7 +704,8 @@ Sciences"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="OE2"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
+                            android:background="@color/pink_bg"
                             android:textSize="14sp" />
 
                         <TextView
@@ -714,7 +715,8 @@ Sciences"
                             android:gravity="center_horizontal"
                             android:padding="10sp"
                             android:text="Open Elective II*"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
+                            android:background="@color/pink_bg"
                             android:textSize="14sp" />
                     </TableRow>
 

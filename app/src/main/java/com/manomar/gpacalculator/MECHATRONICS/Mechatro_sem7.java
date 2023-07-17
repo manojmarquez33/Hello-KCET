@@ -8,9 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
+
 import com.manomar.gpacalculator.R;
-import com.manomar.gpacalculator.ResultActivity;
+import com.manomar.gpacalculator.GPA_ResultActivity;
 
 import io.github.muddz.styleabletoast.StyleableToast;
 
@@ -25,7 +25,7 @@ public class Mechatro_sem7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mechatro_sem7);
 
-        cal_gpa = findViewById(R.id.btn_mtr_gpa_sem7);
+        cal_gpa = findViewById(R.id.btn_mrt_gpa_sem7);
 
         getSupportActionBar().setTitle("Mechatronics Semester 7");
         ActionBar actionBar = getSupportActionBar();
@@ -252,7 +252,7 @@ public class Mechatro_sem7 extends AppCompatActivity {
 
 
             cal_gpa.setClickable(true);
-            Intent intent = new Intent(Mechatro_sem7.this, ResultActivity.class);
+            Intent intent = new Intent(Mechatro_sem7.this, GPA_ResultActivity.class);
             intent.putExtra("gpa", gpa_sem7);
             startActivity(intent);
 
