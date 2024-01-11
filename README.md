@@ -11,6 +11,8 @@
 
 Hello KCET is a free android mobile application used to find CGPA and GPA score. It is especially developed for KCET students for their easy convenience, who are all studying in KCET. This app is made for you.
 
+## Logo
+<img src="https://github.com/manojmarquez33/Hello-KCET/blob/master/app/release/icon.jpg" width="210">|
 
 ## Screenshots
 
@@ -38,8 +40,6 @@ Hello KCET is a free android mobile application used to find CGPA and GPA score.
 • You can find your End Semester result
 
 • Students can find their Timetable
-
-![Logo](https://github.com/manojmarquez33/Hello-KCET/blob/master/app/release/icon.jpg)
 
 
 ## Tech Stack
