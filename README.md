@@ -3,8 +3,6 @@
 ![Platform - Android](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-# Hi, I'm Manojkumar! 👋
-
 
 # Hello KCET
 
