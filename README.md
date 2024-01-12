@@ -11,7 +11,7 @@
 Hello KCET is a free android mobile application used to find CGPA and GPA score. It is especially developed for KCET students for their easy convenience, who are all studying in KCET. This app is made for you.
 
 ## Logo
-<img src="https://github.com/manojmarquez33/Hello-KCET/blob/master/app/release/icon.jpg" width="210">|
+<img src="https://github.com/manojmarquez33/Hello-KCET/blob/master/app/release/icon.jpg" width="180">|
 
 ## Screenshots
 
@@ -65,12 +65,12 @@ Clone this repo and checkout the latest development branch.
 
 ```
 git clone https://github.com/manojmarquez33/Hello-KCET.git  
-
-Open the project in Android Studio
-
 ```
+Open the project in Android Studio
 
 ### Support the Project
 If you've found value in this project, please consider supporting us by giving it a star or sharing the repository. Your support plays a crucial role in expanding the project's reach within the community.
+
+<p><a href="https://www.buymeacoffee.com/manojmarquez33"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="manojmarquez33" /></a></p><br><br>
 
 
